@@ -33,7 +33,12 @@ module.exports = function(grunt) {
       },
       less: {
         files: 'assets/styles/*.less',
-        tasks: 'less'
+        tasks: 'less',
+        options: {
+          livereload: {
+            port:9000,
+          }
+        }
       },
       js: {
         files: ['js/libs/*.js', 'js/*.js', '!js/bundle.min.js'],
@@ -96,6 +101,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('build', ['uglify', 'less', 'compile-handlebars', 'concat', 'shell', 'clean:templates']);
+  //grunt.registerTask('build', ['uglify', 'less', 'compile-handlebars', 'concat', 'shell', 'clean:templates']);
+  grunt.registerTask('build', ['uglify', 'less', 'compile-handlebars', 'concat', 'clean:templates']);
   grunt.registerTask('dev', ['watch']);
 };

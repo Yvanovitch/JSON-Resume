@@ -1,0 +1,10 @@
+Libs :
+jquery easing : différentes equation pour appliquer aux animations
+jquery fittext : Permet d'écrire du texte dans une taille proportionnelle peut importe le device
+jquery flexslider : Slider personnalisable
+jquery label better : Déplace le label d'un input au dessus
+masonry : Cascading grid layout 
+scrollto : Permet de scroller facilement à une balise, une valeur en px ou autre
+modernizr : Permet de détecter si le navigateur supporte tel feature
+respond : Gestion des vieux navigateurs
+waypoints : Gestion facile des événements scrolling

@@ -1,0 +1,233 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('../polices/ballpark.eot');
+    src: url('../polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../polices/ballpark.woff') format('woff'),
+         url('../polices/ballpark.ttf') format('truetype'),
+         url('../polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article {
+    top:0px;
+}
+
+#credit {
+    z-index:3;
+    width:170px;
+    position:fixed;
+    right:0px;
+    bottom:0px;
+    background-color : rgba(71, 127, 271, 0.5);
+    border-top-left-radius:1em;
+    font-size:0.8em;
+    color: white;
+    font-family: Dayrom, serif;
+    padding : 6px;
+}
+
+#credit a {
+    color:black;
+}
+
+#remerciement {
+    display:none;
+}
+
+#usine {
+    z-index:3;
+}
+
+#img_usine {
+    
+    position:absolute;
+    top:45px;
+    left:1%;
+    margin-top:10px;
+    top:50px;
+    width:12%;
+    left:20px;
+}
+
+#img_fog {
+    z-index:3;
+    float:left;
+    position:absolute;
+    top:0%;
+    left:80px;
+    width: 20%;    
+    /*moz-opacity:0.5;
+opacity: 0.5;
+filter:alpha(opacity=50);*/
+}
+
+#consommationSlider {
+    position:absolute;
+    left:120px;
+    top:60px;
+    z-index:4;
+    
+}
+
+#full_quality {
+    z-index:3;
+    width:170px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    background-color : rgba(71, 127, 271, 0.5);
+    border-top-right-radius:1em;
+    font-size:0.8em;
+    color: white;
+    font-family: Dayrom, serif;
+    padding : 6px;
+}
+
+#full_quality a {
+    color:black;
+}
+
+header {
+    border-bottom-left-radius: 5em;
+    border-style:none;
+    background-image: url("../Templates/nuageBlanc.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:80px;
+    padding-top: 85px;
+    position:fixed;
+    float:right;
+    text-align: center;
+    z-index:3;
+    width:250px;
+    right:0px;
+    top:300px;
+    font-family: Dayrom, serif;
+}
+
+header h1 {
+    margin: 0px;
+    padding:0;
+}
+
+header p {
+    margin:9px;
+}
+
+#like_facebook {
+   //float:left;
+    margin-left:80px;
+    position:relative;
+    bottom: 38px;
+    text-align:center;
+    display:inline-block;
+}
+
+#facebook_link {
+    float:right;
+    position : relative;
+    bottom:35px;
+    //margin-bottom:38px;
+    //margin-right:20px;
+}
+
+#merci {
+    display:none;
+    border-radius: 0.6em;
+    background-color: white;
+    font-size: 3em;
+    padding : 2%;
+    width: 30%;
+    position:absolute;
+    left:20%;
+    top:20%;
+    vertical-align:middle;
+    font-family: Dayrom, serif;
+}
+
+#fleche_bulle {
+    position:absolute;
+    bottom:-45px;
+    left:40%;
+}
+
+#img_container {
+    /*width: 3000px;
+    height: 3000px;*/
+    //clip: rect(0%, 100%, 100%, 0%);
+    /*clip:rect(250px, 1850px, 800px, 1150px); /*<top>, <right>, <bottom>, <left> ou auto*/ 
+    
+    overflow:hidden;
+}
+
+#img_human_belt {
+    z-index: 1;
+    width:100%;
+    position:absolute;
+    left:0%;
+    top:200px;
+}
+
+#img_fog_belt {
+    width:150%;
+    //float:left;
+    position:absolute;
+    top:-5px;
+    left:-25%;
+    z-index:2;
+}
+
+
+body {
+    background-color: #477fdb;
+    font-family: "Dayrom", "Arial";
+    color: #000;
+    text-decoration: none;
+    text-align:center;
+    margin-right:auto; 
+    margin-left:auto;
+    direction:ltr;
+}
+
+div{
+    text-align:center;
+    text-align: -moz-center;
+    text-align: -khtml-center;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1 {
+    color: green;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: blue;
+    font-size:1em;
+}
+
+.footer a {
+    color: #fff;
+}
+
+body, p, h1, h2, h3, table, td, th, ul, ol, textarea, input
+{
+    font-family: Dayrom,verdana,helvetica,arial,sans-serif;
+}
