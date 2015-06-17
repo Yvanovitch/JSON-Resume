@@ -7,32 +7,34 @@
 
 				<header class="section-header text-center">
 
-					<h1 class="scrollimation scale-in">Laissez moi un message</h1>
+					<h1 class="scrollimation scale-in">{{ lang.contact.let-line }}</h1>
 					<p><a href="mailto:{{ contact.mail }}" class='light-typo'>{{ contact.mail }}</a></p>
 
 				</header>
 
 				<form  id="contact-form" class="bl_form text-center" action="contact.php" method="post" novalidate>
 					<span class="field-wrap scrollimation fade-right">
-						<label class="control-label" for="contact-name">Nom</label>
-						<input id="contact-name" name="contactName" type="text" class="label_better requiredField noResize" data-new-placeholder="Nom" placeholder="Nom" data-error-empty="*Entrez votre nom">
+						<label class="control-label" for="contact-name">{{ lang.contact.name }}</label>
+						<input id="contact-name" name="contactName" type="text" class="label_better requiredField noResize" data-new-placeholder="{{ lang.contact.name }}" placeholder="{{ lang.contact.name }}" data-error-empty="*Entrez votre nom">
 					</span>
 					<span class="field-wrap scrollimation fade-in">
-						<label class="control-label" for="contact-mail">Email</label>
-						<input id="contact-mail" name="email" type="email" class="label_better requiredField noResize" data-new-placeholder="Email Address" placeholder="Email Address" data-error-empty="*Enter your email" data-error-invalid="x Invalid email address">
+						<label class="control-label" for="contact-mail">{{ lang.contact.mail-info }}</label>
+						<input id="contact-mail" name="email" type="email" class="label_better requiredField noResize" data-new-placeholder="{{ lang.contact.mail-info }}" placeholder="{{ lang.contact.mail-info }}" data-error-empty="*{{ lang.contact.mail-info }}" data-error-invalid="x Invalid email address">
 					</span>
+					<!--
 					<span class="field-wrap scrollimation fade-left">
 						<label class="control-label" for="contact-check">Favorite browser</label>
 						<input id="contact-check" name="check" type="text" class="label_better requiredField noResize" data-new-placeholder="What is my favorite browser? (F***fox)" placeholder="Anti-bot" data-error-empty="*Enter the answer" data-error-invalid="x Invalid answer">
 					</span>
+					-->
 					<span class="field-wrap scrollimation fade-in" style="display:block;clear:both;">
-						<label class="control-label" for="contact-message">Message</label>
-						<textarea id="contact-message" name="comments" rows="1" class="requiredField" placeholder="Message" data-error-empty="*Enter your message"></textarea>
+						<label class="control-label" for="contact-message">{{ lang.contact.message }}</label>
+						<textarea id="contact-message" name="comments" rows="1" class="requiredField" placeholder="{{ lang.contact.message }}" data-error-empty="*Enter your message"></textarea>
 					</span>
 
 					<p class="text-center">
-						<button  name="submit" type="submit" class="btn btn-meflat white icon-left" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-location-arrow"></i>Envoyer</button><br/>
-						<a class="btn btn-meflat white icon-left" href="{{ about.en.cvLink }}" target="_blank"><i class="fa fa-file"></i>Télécharger ma fiche</a>
+						<button  name="submit" type="submit" class="btn btn-meflat white icon-left" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-location-arrow"></i>{{ lang.contact.send }}</button><br/>
+						<a class="btn btn-meflat white icon-left" href="{{ about.en.cvLink }}" target="_blank"><i class="fa fa-file"></i>{{ lang.contact.download }}</a>
 					</p>
 					<input type="hidden" name="submitted" id="submitted" value="true" />
 

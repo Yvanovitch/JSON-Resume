@@ -1,0 +1,10 @@
+{
+  "lang":{
+    "contact":{
+      "name":"Nom",
+      "let-line":"Laissez moi un message",
+      "mail-info":"Adresse Courriel"
+      "download":"Télécharger ma fiche",
+    }
+  }
+}

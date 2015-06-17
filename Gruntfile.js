@@ -25,7 +25,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     watch: {
       handlebars: {
-        files: ['templates/*.hbs', 'cv/*.hbs', 'resume.json'],
+        //files: ['templates/*.hbs', 'cv/*.hbs', 'resume-fr.json'], //With cv
+        files: ['templates/*.hbs', 'resume-fr.json '],
         tasks: ['compile-handlebars', 'concat:html', 'clean:templates'],
         options: {
           interrupt: true
@@ -34,11 +35,11 @@ module.exports = function(grunt) {
       less: {
         files: 'assets/styles/*.less',
         tasks: 'less',
-        options: {
+       /* options: {
           livereload: {
             port:9000,
           }
-        }
+        }*/
       },
       js: {
         files: ['js/libs/*.js', 'js/*.js', '!js/bundle.min.js'],
@@ -48,14 +49,14 @@ module.exports = function(grunt) {
     'compile-handlebars': {
       html: {
         template: 'templates/*.hbs',
-        templateData: 'resume.json',
+        templateData: 'resume-fr.json',
         output: 'templates/*.html'
       },
-      cv: {
+      /*cv: {
         template: 'cv/*.hbs',
-        templateData: 'resume.json',
+        templateData: 'resume-fr.json',
         output: 'cv/*.html'
-      }
+      }*/
     },
     concat: {
       html: {

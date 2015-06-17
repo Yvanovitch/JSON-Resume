@@ -27,13 +27,14 @@ if(isset($_POST['submitted'])) {
 	}
 
 	// need valid check
+	/*
 	if(trim($_POST['check']) === '')  {
 		$emailError = 'Check Failed: Forget to enter a result.';
 		$hasError = true;
 	} else if (strtolower(trim($_POST['check'])) !== 'firefox') {
 		$emailError = 'You entered a wrong answer.';
 		$hasError = true;
-	}
+	}*/
 
 	// we need at least some content
 	if(trim($_POST['comments']) === '') {

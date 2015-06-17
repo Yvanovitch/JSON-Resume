@@ -1,0 +1,509 @@
+{
+  "about":{
+    "name":"Yvan Richer",
+    "en":{
+      "role":"Innovation Manager",
+      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France.<br/><b>I am going to be graduated in September 2015.</b>",
+      "cvLink":"cv/yvan_richer_en.pdf"
+    },
+    "fr":{
+      "role":"Gestionnaire de l'Innovation",
+      "description":"Étudiant à l'ETS Montréal en double diplôme avec l'ISEN-Lille en Gestion de l'Innovation, je suis parallèlement Développeur Web chez OVH.",
+      "cvLink":"cv/yvan_richer_fr.pdf"
+    }
+  },
+  "levitate":{
+    "top":{
+      "img":"assets/img/levi/firefox.svg",
+      "text":"<i class='fa fa-heart'></i>"
+    },
+    "left":{
+      "img":"assets/img/levi/grunt.svg",
+      "text":"<i class='fa fa-line-chart'></i> productivity"
+    },
+    "right":{
+      "img":"assets/img/levi/hocus.png",
+      "text":"<i class='fa fa-headphones'></i> + programming = <i class='fa fa-heart'></i>"
+    }
+  },
+  "skills":[
+    {
+      "tech":"Veille technologique",
+      "rate":"7",
+      "separator":" - ",
+      "innovation":true,
+    },
+    {
+      "tech":"Gestion des Connaissances",
+      "rate":"9",
+      "innovation":true,
+      "separator":" - "
+    },
+    {
+      "tech":"Créativité",
+      "innovation":true,
+      "separator":" - ",
+      "rate":"4",
+    },
+    {
+      "tech":"Culture du Changement",
+      "innovation":true,
+      "rate":"4",
+      "separator":" - "
+    },
+    {
+      "tech":"Propriété Intellectuelle",
+      "rate":"6",
+      "innovation":true,
+      "separator":" - "
+    },
+    {
+      "tech":"Marketing",
+      "rate":"4",
+      "innovation":true,
+      "separator":" - "
+    },
+    {
+      "tech":"CSS",
+      "web":true,
+      "separator":" - "
+    },
+    {
+      "tech":"HTML5",
+      "web":true,
+      "separator":" - "
+    },
+    {
+      "tech":"PHP",
+      "web":true
+    },
+    {
+      "innovation":"Python",
+      "software":true,
+      "separator":" - "
+    },
+    {
+      "tech":"Java",
+      "software":true,
+      "separator":" - "
+    },
+    {
+      "tech":"Network",
+      "admin":true,
+      "separator":" - "
+    },
+    {
+      "tech":"SQL",
+      "admin":true,
+      "separator":"/"
+    },
+    {
+      "tech":"Photoshop",
+      "others":true,
+      "separator":" - "
+    },
+    {
+      "tech":"Illustrator",
+      "others":true,
+      "separator":" - "
+    },
+  ],
+  "experiences":{
+    "fr":[
+      {
+        "title":"Affilizr",
+        "date":"Janvier-Avril 2014",
+        "duration":"4 mois",
+        "position":"Développeur",
+        "tech":[
+          "Git",
+          "Java"  
+        ],
+        "location":"Euratechnologie - France",
+        "img":"assets/img/experiences/affilizr.png",
+        "description":"Affilizr est une startup développant un plugin de monétisation pour les sites web",
+        "descriptionLi":[
+          "Création d’un robot en Java capable de récupérer des statistiques sur les plateformes d’affiliation.",
+          "Échanges avec les clients pour savoir comment améliorer le système",
+          "Découverte des préoccupations des startups"
+        ]
+      },
+      {
+        "title":"SmartCities - SensorBoard",
+        "date":"Septembre-Décembre 2013",
+        "duration":"4 mois",
+        "position":"Concepteur - Veilleur",
+        "tech":[
+          "Créativité",
+          "Veille technologique"
+        ],
+        "location":"ISEN Lille - France",
+        "img":"assets/img/experiences/SB&V.png",
+        "description":"Projet de recherche de nouvelles applications des SensorBoards à destination des SmartCities.",
+        "descriptionLi":[
+          "État de l'art des Smarts Cities dans le monde.",
+          "Séances de CoDesign avec le responsable Urbanisation de la ville de Lille.",
+          "Rédaction d'un rapport contenant nos prototypes d'application"
+        ]
+      }
+    ],
+    "en":[
+      {
+        "title":"OVH France",
+        "date":"March-August 2015",
+        "duration":"6 months",
+        "position":"Full-Stack Software Engineer Intern",
+        "tech":[
+          "Angular",
+          "Node.JS"
+        ],
+        "link":"https://ovh.com",
+        "location":"Roubaix FRANCE",
+        "img":"assets/img/experiences/ovh.png",
+        "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting.",
+        "descriptionLi":[
+          "Creating and maintaining the web applications."
+        ]
+      },
+      {
+        "title":"Geckoboard London",
+        "date":"Summer 2014",
+        "duration":"4 months",
+        "position":"Software Engineer Intern",
+        "tech":[
+          "Backbone",
+          "Q.js (Promises)",
+          "SASS",
+          "Vagrant",
+          "Chef",
+          "Jasmine"
+        ],
+        "link":"https://geckoboard.com",
+        "location":"Shoreditch LONDON",
+        "img":"assets/img/experiences/geckoboard2.svg",
+        "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
+        "descriptionLi":[
+          "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
+          "Avoid regression thanks to unit testing implementation",
+          "Write supporting documents (Best practices, How-To...)",
+          "Getting feedback from the customers to improve Geckoboard's products."
+        ]
+      }
+    ]
+  },
+  "projects":{
+    "en":[
+      {
+        "title":"OrchestraHero",
+        "subtitle":"Synchronisez une musique à vos gestes",
+        "date":"05/2013 - 06/2013",
+        "keys":[
+          "Créativité",
+          "Capteurs de mouvement",
+          "Veille technologique",
+        ],
+        "github":"github.com/Yvanovitch/MTec1, https://github.com/Yvanovitch/MTec1",
+        "slides":"Présentation,asset/img/projects/OrchestraHero/OrchestraHero-Poster.pdf",
+        "link":"https://www.youtube.com/watch?v=Prh_IfIbDZY",
+        "tech":[
+          "Créativité",
+          "Capteurs de mouvement",
+          "Veille technologique",
+          "C#",
+          "PureData",
+          "LeapMotion",
+          "Kinect",
+          "Midi",
+          "OSC"
+        ],
+        "description":"Récupère les mouvements d'un chef d'orchestre, les analyse et synchronise la lecture d'un fichier Midi.",
+        "descriptionLi":[
+          "Analyse des mouvements d'un chef d'orchestre",
+          "Prototypage avec PureData",
+          "Élimination des bruits du capteur",
+          "Développement d'un logiciel C# lisant le fichier midi et synchronisé avec PureData",
+          "Intégration des analyses dans C#"
+        ],
+        "featured":true,
+        "thumbImg":"assets/img/projects/OrchestraHero/OrchestraHero_thumb.png",
+        "images":"assets/img/projects/OrchestraHero/OrchestraHero_0.png",
+        "category":"Software"
+      },
+      {
+        "title":"The Cyber Cube",
+        "subtitle":"Plateforme de gestion de contenu Web",
+        "date":"2008 - 2009",
+        "keys":[
+          "PHP",
+          "Plateforme Web",
+        ],
+        "link":"http://the-cyber-cube.net/",
+        "linkName":"The Cyber Cube",
+        "tech":[
+          "php",
+          "mysql",
+          "Ajax"
+        ],
+        "description":"Plateforme Web de gestion de contenu pour le groupe de développement de Jeux Vidéos amateur  The Cyber Cube",
+        "descriptionLi":[
+          "Analyse des besoins de l'association",
+          "Réalisation du BackEnd et mise en place du FrontEnd",
+          "Création d'un système d'article \"from scratch\"",
+          "Création d'un système de gestion des médias en AJAX \"from scratch\""
+        ],
+        "thumbImg":"assets/img/projects/thecybercube/thecybercube_thumb.png",
+        "images":"assets/img/projects/thecybercube/thecybercube_0.png, assets/img/projects/thecybercube/thecybercube_1.png, assets/img/projects/thecybercube/thecybercube_2.png, assets/img/projects/thecybercube/thecybercube_3.png",
+        "category":"Software"
+      },
+      {
+        "title":"Mealer",
+        "subtitle":"Livraison de plat rapide",
+        "date":"Septembre-Décembre 2014",
+        "keys":[
+          "Gestion de projet Web",
+          "Symphony",
+          "Bootstrap",
+          "Conception Orienté Objet"
+        ],
+        "tech":[
+          "Symphony",
+          "Bootstrap",
+          "JQuery",
+          "Modèle de Données"
+        ],
+        "description":"Projet Étudiant de Conception Web dont l'équipe a bien fonctionné",
+        "descriptionLi":[
+          "Mise en place des pratiques de conception d'un site web",
+          "Utilisation du framework Symphony"
+        ],
+        "thumbImg":"assets/img/projects/mealer/mealer_thumb.png",
+        "images":"assets/img/projects/mealer/mealer_0.png, assets/img/projects/mealer/mealer_1.png",
+        "category":"Web"
+      },
+      {
+        "title":"HumanBelt",
+        "subtitle":"Tous unis contre le changement climatique",
+        "date":"Avril 2013",
+        "keys":[
+          "Conférence climatique",
+        ],
+        "link":"assets/img/projects/humanbelt/index.html",
+        "description":"Nous avons organisé une conférence sur les enjeux climatiques soutenues par l'association <a href=\"http://avenirclimatique.org/\">Avenir Climatique</a>.<br>Pour remercier tous les étudiants ayant organisé également une conférence dans leur école, nous avons créé cette page.",
+        "descriptionLi":[
+          "Demande à tout les conférenciers d'envoyer une photo",
+        ],
+        "thumbImg":"assets/img/projects/humanbelt/humanbelt_thumb.png",
+        "images":"assets/img/projects/humanbelt/humanbelt_0.png",
+        "category":"Other"
+      },
+     {
+        "title":"",
+        "subtitle":"",
+        "date":"",
+        "keys":[
+          "",
+          "",
+        ],
+        "github":",",
+        "slides":"Slides,",
+        "link":"",
+        "linkName":"",
+        "tech":[
+          "",
+          "",
+        ],
+        "description":"",
+        "descriptionLi":[
+          "",
+          "",
+          "",
+          ""
+        ],
+        "thumbImg":"assets/img/projects/_thumb.png",
+        "images":"assets/img/projects/.png",
+        "category":"Web"
+      },
+      {
+        "title":"",
+        "subtitle":"",
+        "date":"",
+        "keys":[
+          "",
+          "",
+        ],
+        "github":",",
+        "slides":"Slides,",
+        "link":"",
+        "linkName":"",
+        "tech":[
+          "",
+          "",
+        ],
+        "description":"",
+        "descriptionLi":[
+          "",
+          "",
+          "",
+          ""
+        ],
+        "thumbImg":"assets/img/projects/_thumb.png",
+        "images":"assets/img/projects/.png",
+        "category":"Web"
+      },
+      {
+        "title":"",
+        "subtitle":"",
+        "date":"",
+        "keys":[
+          "",
+          "",
+        ],
+        "github":",",
+        "slides":"Slides,",
+        "link":"",
+        "linkName":"",
+        "tech":[
+          "",
+          "",
+        ],
+        "description":"",
+        "descriptionLi":[
+          "",
+          "",
+          "",
+          ""
+        ],
+        "thumbImg":"assets/img/projects/_thumb.png",
+        "images":"assets/img/projects/.png",
+        "category":"Web"
+      },
+    ],
+    "fr":[
+      {
+        "title":"ScaleWS",
+        "subtitle":"Hack d'une balance connectée",
+        "date":"12/2013 - 04/2014",
+        "keys":[
+          "Node.js",
+          "Socket.IO",
+          "MongoDB",
+          "Backbone"
+        ],
+        "github":"github.com/ababol/ScaleWS,https://github.com/ababol/ScaleWS",
+        "slides":"Slides,http://ababol.github.io/ScaleWS",
+        "link":"http://babol.me:1337",
+        "tech":[
+          "Node.js",
+          "Express",
+          "Backbone",
+          "MongoDB",
+          "Socket.IO",
+          "Highcharts",
+          "d3.js",
+          "SASS",
+          "Grunt",
+          "Bower",
+          "Require.js",
+          "Wireshark"
+        ],
+        "description":"Obtenir, interpréter et pouvoir visualiser les données acquises à partir d'une balance connectée (Withings WS50).",
+        "descriptionLi":[
+          "Hack de le balance (DNS Spoofing)",
+          "Fournir une API RESTful JSON (Node.JS + MongoDB)",
+          "Création d'une application web",
+          "Données partagées entre client & serveur (Socket.io/MongoDB)"
+        ],
+        "featured":true,
+        "thumbImg":"assets/img/projects/scalews/scalews_thumb.png",
+        "images":"assets/img/projects/scalews/scalews_0.png,assets/img/projects/scalews/scalews_1.png",
+        "featImg":"assets/img/projects/scalews/scalews.gif",
+        "category":"Web"
+      }
+    ]
+  },
+  "contribution":{
+    "en":{
+      "title":"AtomLinter",
+      "tech":[
+        "CoffeeScript",
+        "Sinon"
+      ],
+      "description":"Lint your code with ease in Atom."
+    },
+    "fr":{
+      "title":"AtomLinter",
+      "tech":[
+        "CoffeeScript",
+        "Sinon"
+      ],
+      "description":"Analyseur de code pour Atom (Atom: éditeur de texte créé par GitHub)."
+    }
+  },
+  "timeline":{
+    "en":[
+      {
+        "date":"09/2015",
+        "title":"ISEN - GRADUATED",
+        "description":"Bachelor of Technology in computer Science and Networking (2013).<br/>First Certificate of Cambridge (2013), TOEIC 930 (2015).<br/>Master’s degree in IT with Management & Business development (September 2015)."
+      },
+      {
+        "date":"2010",
+        "title":"ISEN - ENGINEERING SCHOOL, LILLE FRANCE",
+        "description":"School Admission."
+      }
+    ],
+    "fr":[
+      {
+        "date":"09/2015",
+        "title":"ISEN - DIPLÔMÉ",
+        "description":"Bachelor of Technology en informatiques et réseaux (2013).<br/>First Certificate of Cambridge (2013), TOEIC 930 (2015).<br/>Master en management de projet et développement d’affaires/systèmes d’information (Sep. 2015)."
+      },
+      {
+        "date":"2010",
+        "title":"ISEN - ÉCOLE D'INGÉNIEURS, LILLE FRANCE",
+        "description":"Admission à l'ISEN."
+      }
+    ]
+  },
+  "contact":{
+    "phone":"+1 438 830 1456",
+    "mail":"yvan.richer@gmail.com",
+    "github":"https://github.com/yvanovitch",
+    "linkedin":"https://ca.linkedin.com/pub/yvan-richer/83/411/139",
+    "portfolio":"http://ryvan.me"
+  },
+  "meetup":{
+    "france":[
+      "Chti'JS - ",
+    ],
+  },
+  "hobbies":{
+    "en":[
+      "Movies",
+      "Video Games",
+      "Music",
+      "Programming",
+      "New Technology"
+    ],
+    "fr":[
+      "Cinéma",
+      "Jeux Vidéos",
+      "Musique",
+      "Programming",
+      "High-Tech"
+    ]
+  },
+  "idGA":"UA-36930870-1",
+
+
+  "lang":{
+    "contact":{
+      "name":"Nom",
+      "let-line":"Laissez moi un message",
+      "mail-info":"Adresse Courriel",
+      "message":"Message",
+      "download":"Télécharger mon CV",
+      "send":"Envoyer",
+    }
+  }
+}

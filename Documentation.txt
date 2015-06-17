@@ -8,3 +8,11 @@ scrollto : Permet de scroller facilement à une balise, une valeur en px ou autr
 modernizr : Permet de détecter si le navigateur supporte tel feature
 respond : Gestion des vieux navigateurs
 waypoints : Gestion facile des événements scrolling
+
+
+
+Handlebars :
+Difficile de concatener des variables --> Mieux d'utiliser un registerHelper
+En js : global : window[varA + varB] = 'test';
+	local : 
+		var b = {}; b[varA + varB] = 'test';

@@ -1,65 +1,62 @@
 {
   "about":{
     "name":"Yvan Richer",
-    "en":{
-      "role":"Innovation Manager",
-      "description":"I am a student in my final and 5th year at ISEN-Lille which is an engineering college in Electronics and Computer Science in France.<br/><b>I am going to be graduated in September 2015.</b>",
-      "cvLink":"cv/yvan_richer_en.pdf"
-    },
-    "fr":{
-      "role":"Gestionnaire de l'Innovation",
-      "description":"Étudiant à l'ETS Montréal en double diplôme avec l'ISEN-Lille en Gestion de l'Innovation, je suis parallèlement Développeur Web chez OVH.",
-      "cvLink":"cv/yvan_richer_fr.pdf"
-    }
+    "role":"Gestion de l'Innovation",
+    "description":"Étudiant à l'ETS Montréal en double diplôme avec l'ISEN-Lille en Gestion de l'Innovation. Je recherche une entreprise dans laquelle je pourrais réaliser un projet de fin d'étude.",
+    "cvLink":"cv/yvan_richer_fr.pdf",
   },
   "levitate":{
     "top":{
-      "img":"assets/img/levi/firefox.svg",
-      "text":"<i class='fa fa-heart'></i>"
-    },
-    "left":{
-      "img":"assets/img/levi/grunt.svg",
-      "text":"<i class='fa fa-line-chart'></i> productivity"
-    },
-    "right":{
-      "img":"assets/img/levi/hocus.png",
-      "text":"<i class='fa fa-headphones'></i> + programming = <i class='fa fa-heart'></i>"
+      "text":"hophoph",
     }
   },
   "skills":[
     {
-      "tech":"Veille technologique",
+      "tech":"Veille",
+      "desc":"Mise en place d'un processus de Veille technologique",
       "rate":"7",
       "separator":" - ",
       "innovation":true,
     },
     {
-      "tech":"Gestion des Connaissances",
-      "rate":"9",
+      "tech":"KM",
+      "desc":"Knowledge Management - Mise en place de pratiques de Gestion des connaissances",
+      "rate":"7",
       "innovation":true,
       "separator":" - "
     },
     {
       "tech":"Créativité",
+      "desc":"Ateliers de Créativité - ASIT, TRIZ",
       "innovation":true,
       "separator":" - ",
-      "rate":"4",
+      "rate":"6",
     },
     {
-      "tech":"Culture du Changement",
+      "tech":"Culture",
+      "desc":"Analyse de la capacité à innover d'une culture d'entreprise",
       "innovation":true,
-      "rate":"4",
+      "rate":"6",
       "separator":" - "
     },
     {
-      "tech":"Propriété Intellectuelle",
+      "tech":"PI",
+      "desc":"Gestion stratégique d'un portefeuille de Propriété Intellectuelle",
       "rate":"6",
       "innovation":true,
       "separator":" - "
     },
     {
       "tech":"Marketing",
-      "rate":"4",
+      "desc":"Étude de marché, analyse des domaines d'application technologique",
+      "rate":"6",
+      "innovation":true,
+      "separator":" - "
+    },
+    {
+      "tech":"Information",
+      "desc":"Mise en place de processus de Gestion de l'Information",
+      "rate":"6",
       "innovation":true,
       "separator":" - "
     },
@@ -108,88 +105,44 @@
       "separator":" - "
     },
   ],
-  "experiences":{
-    "fr":[
-      {
-        "title":"Affilizr",
-        "date":"Janvier-Avril 2014",
-        "duration":"4 mois",
-        "position":"Développeur",
-        "tech":[
-          "Git",
-          "Java"  
-        ],
-        "location":"Euratechnologie - France",
-        "img":"assets/img/experiences/affilizr.png",
-        "description":"Affilizr est une startup développant un plugin de monétisation pour les sites web",
-        "descriptionLi":[
-          "Création d’un robot en Java capable de récupérer des statistiques sur les plateformes d’affiliation.",
-          "Échanges avec les clients pour savoir comment améliorer le système",
-          "Découverte des préoccupations des startups"
-        ]
-      },
-      {
-        "title":"SmartCities - SensorBoard",
-        "date":"Septembre-Décembre 2013",
-        "duration":"4 mois",
-        "position":"Concepteur - Veilleur",
-        "tech":[
-          "Créativité",
-          "Veille technologique"
-        ],
-        "img":"assets/img/experiences/SB&V.png",
-        "description":"Projet de recherche de nouvelles applications des SensorBoards à destination des SmartCities.",
-        "descriptionLi":[
-          "État de l'art des Smarts Cities dans le monde.",
-          "Séances de CoDesign avec le responsable Urbanisation de la ville de Lille.",
-          "Rédaction d'un rapport contenant nos prototypes d'application"
-        ]
-      }
-    ],
-    "en":[
-      {
-        "title":"OVH France",
-        "date":"March-August 2015",
-        "duration":"6 months",
-        "position":"Full-Stack Software Engineer Intern",
-        "tech":[
-          "Angular",
-          "Node.JS"
-        ],
-        "link":"https://ovh.com",
-        "location":"Roubaix FRANCE",
-        "img":"assets/img/experiences/ovh.png",
-        "description":"OVH is an Internet Service Provider providing dedicated servers, shared and cloud hosting.",
-        "descriptionLi":[
-          "Creating and maintaining the web applications."
-        ]
-      },
-      {
-        "title":"Geckoboard London",
-        "date":"Summer 2014",
-        "duration":"4 months",
-        "position":"Software Engineer Intern",
-        "tech":[
-          "Backbone",
-          "Q.js (Promises)",
-          "SASS",
-          "Vagrant",
-          "Chef",
-          "Jasmine"
-        ],
-        "link":"https://geckoboard.com",
-        "location":"Shoreditch LONDON",
-        "img":"assets/img/experiences/geckoboard2.svg",
-        "description":"Geckoboard is a real-time dashboard that gives you instant access to your most important metrics.",
-        "descriptionLi":[
-          "Create widgets using RESTful/SOAP API from service like Google (Adwords, Drive...), Twitter, Mixpanel...",
-          "Avoid regression thanks to unit testing implementation",
-          "Write supporting documents (Best practices, How-To...)",
-          "Getting feedback from the customers to improve Geckoboard's products."
-        ]
-      }
-    ]
-  },
+  "experiences":[
+    {
+      "title":"Affilizr",
+      "date":"Janvier-Avril 2014",
+      "duration":"4 mois",
+      "position":"Développeur",
+      "tech":[
+        "Git",
+        "Java"  
+      ],
+      "location":"Euratechnologie - France",
+      "img":"assets/img/experiences/affilizr.png",
+      "description":"Affilizr est une startup développant un plugin de monétisation pour les sites web",
+      "descriptionLi":[
+        "Création d’un robot en Java capable de récupérer des statistiques sur les plateformes d’affiliation.",
+        "Échanges avec les clients pour savoir comment améliorer le système",
+        "Découverte des préoccupations des startups"
+      ]
+    },
+    {
+      "title":"SmartCities - SensorBoard",
+      "date":"Septembre-Décembre 2013",
+      "duration":"4 mois",
+      "position":"Concepteur - Veilleur",
+      "tech":[
+        "Créativité",
+        "Veille technologique"
+      ],
+      "location":"ISEN Lille - France",
+      "img":"assets/img/experiences/SB&V.png",
+      "description":"Projet de recherche de nouvelles applications des SensorBoards à destination des SmartCities.",
+      "descriptionLi":[
+        "État de l'art des Smarts Cities dans le monde.",
+        "Séances de CoDesign avec le responsable Urbanisation de la ville de Lille.",
+        "Rédaction d'un rapport contenant nos prototypes d'application"
+      ]
+    }
+  ],
   "projects":{
     "en":[
       {
@@ -204,6 +157,7 @@
         "github":"github.com/Yvanovitch/MTec1, https://github.com/Yvanovitch/MTec1",
         "slides":"Présentation,asset/img/projects/OrchestraHero/OrchestraHero-Poster.pdf",
         "link":"https://www.youtube.com/watch?v=Prh_IfIbDZY",
+        "linkName2":"Voir la vidéo",
         "tech":[
           "Créativité",
           "Capteurs de mouvement",
@@ -295,7 +249,7 @@
         "images":"assets/img/projects/humanbelt/humanbelt_0.png",
         "category":"Other"
       },
-     {
+     /*{
         "title":"",
         "subtitle":"",
         "date":"",
@@ -375,7 +329,7 @@
         "thumbImg":"assets/img/projects/_thumb.png",
         "images":"assets/img/projects/.png",
         "category":"Web"
-      },
+      },*/
     ],
     "fr":[
       {
@@ -465,25 +419,16 @@
     ]
   },
   "contact":{
-    "phone":"+33 (0) 6 71 70 62 35",
-    "mail":"arnaud@babol.me",
-    "github":"https://github.com/ababol",
-    "angellist":"https://angel.co/ababol",
-    "twitter":"https://twitter.com/arbabol",
-    "linkedin":"http://fr.linkedin.com/pub/arnaud-babol/60/994/741/en",
-    "portfolio":"http://babol.me"
+    "phone":"+1 438 830 1456",
+    "mail":"yvan.richer@gmail.com",
+    "github":"https://github.com/yvanovitch",
+    "linkedin":"https://ca.linkedin.com/pub/yvan-richer/83/411/139",
+    "portfolio":"http://ryvan.me"
   },
   "meetup":{
     "france":[
       "Chti'JS - ",
-      "Take Off Talks - ",
-      "GDG Lille - ",
-      "Docker Lille"
     ],
-    "london":[
-      "London React User Group - ",
-      "Docker London"
-    ]
   },
   "hobbies":{
     "en":[
@@ -501,5 +446,58 @@
       "High-Tech"
     ]
   },
-  "idGA":"UA-36930870-1"
+  "idGA":"UA-36930870-1",
+
+
+  "lang":{
+    "menu":{
+      "about":"A propos",
+      "skills":"Compétences",
+      "works":"Portfolio",
+      "contact":"Contact",
+    },
+    "contact":{
+      "name":"Nom",
+      "let-line":"Laissez moi un message",
+      "mail-info":"Adresse Courriel",
+      "message":"Message",
+      "download":"Télécharger mon CV",
+      "send":"Envoyer",
+    },
+    "about":{
+      "download":"Télécharger mon CV",
+      "contact":"Me contacter",
+    },
+    "experiences":{
+      "visit":"Visiter le site web",
+      "title":"Expériences",
+    },
+    "featured_project":{
+      "title":"Projet délivré",
+      "visit":"Démo",
+    },
+    "portfolio":{
+      "title":"Mes travaux",
+      "description":"Vous pouvez trouver ici quelques uns de mes derniers travaux.<br/> Enjoy!",
+      "all":"Tous",
+      "filter":[
+        {
+          "tag":"Web",
+          "name":"Web"
+        },
+        {
+          "tag":"Software",
+          "name":"Logiciel"
+        },
+        {
+          "tag":"Other",
+          "name":"Autre"
+        }
+      ]
+    },
+    "projects":{
+      "we_used":"Nous avons utilisé :",
+      "go_demo":"Aller à la Démo",
+    }
+  }
 }

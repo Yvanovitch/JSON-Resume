@@ -10,10 +10,18 @@
 
 					<div class="col-sm-6 col-centered">
 						<ul class="social-links">
-							<li class="scrollimation fade-right d3"><a href="{{ contact.angellist }}" target="_blank"><i class="fa fa-angellist fa-fw"></i></a></li>
-							<li class="scrollimation fade-right d2"><a href="{{ contact.github }}" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
-							<li class="scrollimation fade-right d1"><a href="{{ contact.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
-							<li class="scrollimation fade-right"><a href="{{ contact.linkedin }}" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+							{{#if contact.angellist }}
+								<li class="scrollimation fade-right d3"><a href="{{ contact.angellist }}" target="_blank"><i class="fa fa-angellist fa-fw"></i></a></li>
+							{{/if}}
+							{{#if contact.github}}
+								<li class="scrollimation fade-right d2"><a href="{{ contact.github }}" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+							{{/if}}
+							{{#if contact.twitter}}
+								<li class="scrollimation fade-right d1"><a href="{{ contact.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+							{{/if}}
+							{{#if contact.linkedin}}
+								<li class="scrollimation fade-right"><a href="{{ contact.linkedin }}" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+							{{/if}}
 						</ul>
 					</div>
 

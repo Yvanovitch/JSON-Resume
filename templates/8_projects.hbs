@@ -27,7 +27,7 @@
 				data-images="{{ this.images }}"
 			>
 			{{#if this.tech}}
-			<p class='buildWith'>Nous avons utilisé :<br/>
+			<p class='buildWith'>{{ @root.lang.projects.we_used }}<br/>
 				{{#each this.tech}}
           <span class='label label-default label-project'>{{this}}</span>
         {{/each}}
@@ -47,7 +47,7 @@
 							{{#if this.linkName}}
 								{{this.linkName}}
 							{{else}}
-								Aller à la Demo
+								{{ @root.lang.projects.go_demo }}
 							{{/if}}
 							<i class="fa fa-rocket"></i>
 						</a>
