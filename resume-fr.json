@@ -2,7 +2,7 @@
   "about":{
     "name":"Yvan Richer",
     "role":"Gestion de l'Innovation",
-    "description":"Étudiant à l'ETS Montréal en double diplôme avec l'ISEN-Lille en Gestion de l'Innovation. Je recherche une entreprise dans laquelle je pourrais réaliser un projet de fin d'étude.",
+    "description":"Étudiant à l'ETS Montréal en double diplôme avec l'ISEN-Lille en Gestion de l'Innovation. Je recherche une entreprise dans laquelle je pourrais réaliser un projet de fin d'étude dans la période septembre - décembre 2015.",
     "cvLink":"cv/yvan_richer_fr.pdf",
   },
   "levitate":{
@@ -13,21 +13,21 @@
   "skills":[
     {
       "tech":"Veille",
-      "desc":"Mise en place d'un processus de Veille technologique",
+      "desc":"Mise en place d'un processus de Veille Technologique",
       "rate":"7",
       "separator":" - ",
       "innovation":true,
     },
     {
       "tech":"KM",
-      "desc":"Knowledge Management - Mise en place de pratiques de Gestion des connaissances",
+      "desc":"Knowledge Management - Mise en place de pratiques de Gestion des Connaissances",
       "rate":"7",
       "innovation":true,
       "separator":" - "
     },
     {
       "tech":"Créativité",
-      "desc":"Ateliers de Créativité - ASIT, TRIZ",
+      "desc":"Ateliers de Créativité - C-K, ASIT, TRIZ",
       "innovation":true,
       "separator":" - ",
       "rate":"6",
@@ -178,6 +178,7 @@
           "Intégration des analyses dans C#"
         ],
         "featured":true,
+        "featImg":"assets/img/projects/OrchestraHero/OrchestraHero_0.png",
         "thumbImg":"assets/img/projects/OrchestraHero/OrchestraHero_thumb.png",
         "images":"assets/img/projects/OrchestraHero/OrchestraHero_0.png",
         "category":"Software"
@@ -206,7 +207,7 @@
         ],
         "thumbImg":"assets/img/projects/thecybercube/thecybercube_thumb.png",
         "images":"assets/img/projects/thecybercube/thecybercube_0.png, assets/img/projects/thecybercube/thecybercube_1.png, assets/img/projects/thecybercube/thecybercube_2.png, assets/img/projects/thecybercube/thecybercube_3.png",
-        "category":"Software"
+        "category":"Web"
       },
       {
         "title":"Mealer",
@@ -247,6 +248,27 @@
         ],
         "thumbImg":"assets/img/projects/humanbelt/humanbelt_thumb.png",
         "images":"assets/img/projects/humanbelt/humanbelt_0.png",
+        "category":"Other"
+      },
+      {
+        "title":"A bout de Souffle",
+        "subtitle":"Mini-jeu coup de coeur du Pixel Challenge 2015",
+        "date":"Mars 2015",
+        "keys":[
+          "Création Jeu-vidéo",
+          "Game-Design",
+          "C#",
+        ],
+        "link":"assets/img/projects/aboutdesouffle/AspiGame.zip",
+        "linkName":"Télécharger le jeu (2 manettes)",
+        "slides":"https://vid.me/8MW5",
+        "description":"Aspi et Souffli, deux petites machines, voulant œuvrer pour défendre la cause des pastèques bafouées du monde entier, ont entrepris d'aider la plus mignonne d'entre elles à s'échapper de l'abattoir à pastèques ! Malgré les rails qui contraignent leurs mouvements, Aspi et Souffli doivent coordonner leurs supers pouvoirs (respectivement aspirer la balle et souffler dessus) pour la guider jusqu'à la sortie !",
+        "descriptionLi":[
+          "Prototypage en 48h",
+          "Programmation C#"
+        ],
+        "thumbImg":"assets/img/projects/aboutdesouffle/aboutdesouffle_thumb.png",
+        "images":"assets/img/projects/aboutdesouffle/aboutdesouffle_0.png, assets/img/projects/aboutdesouffle/aboutdesouffle_1.png, assets/img/projects/aboutdesouffle/aboutdesouffle_2.png, assets/img/projects/aboutdesouffle/aboutdesouffle_3.png, assets/img/projects/aboutdesouffle/aboutdesouffle_4.png, assets/img/projects/aboutdesouffle/aboutdesouffle_5.jpg",
         "category":"Other"
       },
      /*{
@@ -458,7 +480,7 @@
     },
     "contact":{
       "name":"Nom",
-      "let-line":"Laissez moi un message",
+      "let-line":"Laissez moi un message !",
       "mail-info":"Adresse Courriel",
       "message":"Message",
       "download":"Télécharger mon CV",
@@ -467,6 +489,9 @@
     "about":{
       "download":"Télécharger mon CV",
       "contact":"Me contacter",
+    },
+    "skills":{
+      "title":"Compétences",
     },
     "experiences":{
       "visit":"Visiter le site web",
@@ -478,7 +503,7 @@
     },
     "portfolio":{
       "title":"Mes travaux",
-      "description":"Vous pouvez trouver ici quelques uns de mes derniers travaux.<br/> Enjoy!",
+      "description":"Vous pouvez trouver ici quelques uns de mes derniers travaux. Enjoy!",
       "all":"Tous",
       "filter":[
         {
@@ -489,6 +514,10 @@
           "tag":"Software",
           "name":"Logiciel"
         },
+       /* {
+          "tag":"VideoGame",
+          "name":"Jeu-vidéo"
+        },*/
         {
           "tag":"Other",
           "name":"Autre"

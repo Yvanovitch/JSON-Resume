@@ -1,6 +1,6 @@
 <?php
-$emailTo = 'arnaud@babol.me';
-$siteTitle = 'Arnaud Babol';
+$emailTo = 'yvan.richer@gmail.com';
+$siteTitle = 'Yvan Richer';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
@@ -50,7 +50,7 @@ if(isset($_POST['submitted'])) {
 
 	// upon no failure errors let's email now!
 	if(!isset($hasError)) {
-		$subject = '[Babol.me] New message from '.$name;
+		$subject = '[ryvan.me] Nouveau message de '.$name;
 		$sendCopy = trim($_POST['sendCopy']);
 		$body = "Email: $email\nMessage:\n$comments";
 		$headers = 'From: ' .' <'.$email.'>' . "\r\n" . 'Reply-To: ' . $email;

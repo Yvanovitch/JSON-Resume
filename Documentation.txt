@@ -16,3 +16,11 @@ Difficile de concatener des variables --> Mieux d'utiliser un registerHelper
 En js : global : window[varA + varB] = 'test';
 	local : 
 		var b = {}; b[varA + varB] = 'test';
+
+
+Svg : no ratio : 
+ preserveAspectRatio="none" 
+
+ Note : background-image: url('../img/sep1.svg#svgView(preserveAspectRatio(none slice))'); ne fonctionne pas sur Chrome
+ Note : Chrome ne supporte pas le chargement d'une image locale avec xmlasync (notamment dans Snap.load('../image.svg'))
+ Note : Chrome ne semble pas utiliser pas la même technique pour calculer la largeur d'un groupe Snap => J'ai été contraint d'utiliser une valeur fixe

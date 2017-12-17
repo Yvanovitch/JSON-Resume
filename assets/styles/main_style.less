@@ -1,7 +1,7 @@
 // base: #36D9C3
 @mainColor: #3498CB;
 @secondColor: #2A6F9B;
-@thirdColor: #D9EAF5;
+@thirdColor: #DA7B36;
 /*--------------------
 -----Main Styles------
 ----------------------*/
@@ -87,7 +87,7 @@ a:focus,
 }
 
 .padding-top-bottom {
-    padding:50px 0;
+    padding:50px 0 80px 0;
 }
 
 .padding-top {
@@ -111,7 +111,7 @@ a:focus,
 }
 #feat-project {
 	&.padding-top {
-	    padding:45px 0 0;
+	    padding:85px 0 0;
 	}
 
 	.section-header {
@@ -123,6 +123,12 @@ a:focus,
     font-size:48px;
     font-weight:600;
     letter-spacing:0.05em;
+}
+.container {
+    z-index:2;
+}
+section {
+    position:relative;
 }
 /*------------------
 ----- Buttons ------
@@ -180,14 +186,14 @@ a:focus,
 .btn-meflat:focus,
 .btn-meflat:active {
 	color: @secondColor;
-    background: @thirdColor;
+    background: rgba(10,10,90,0.1);
 	opacity:0.9;
 	text-decoration: none;
 }
 
 .btn-meflat.white {
-	background: @thirdColor;
-	border:2px solid @secondColor;
+    color:#FBB44B;
+	border:2px solid @thirdColor;
 	box-shadow: none;
 	-webkit-transition:all .1s ease-out;
 	transition:all .1s ease-out;
@@ -199,6 +205,7 @@ a:focus,
 .btn-meflat.white:active {
 	top:0;
 	text-decoration: none;
+    background:rgba(114, 59, 5, 0.192)
 }
 
 .btn-meflat.icon-left [class*=fa]{
@@ -212,7 +219,22 @@ a:focus,
 /*----------------
 ----- Colors -----
 ------------------*/
-
+.bg-transition-bottom {
+    width:100%;
+    height:120px;
+    background-size: 100% 100%;
+    position:absolute;
+    z-index:1;
+    bottom:0px;
+}
+.bg-transition-top {
+    width:100%;
+    height:120px;
+    background-size: 100% 100%;
+    position:absolute;
+    z-index:1;
+    top:0px;
+}
 .white-bg{
     background:#fff;
 }
@@ -221,12 +243,25 @@ a:focus,
     background:#f2f2f2;
 }
 
+.orange-bg {
+    background-color:#F89B1D;
+}
+.orange-bg-before {    
+    background-image: url('../img/sep1.svg'); 
+}
+
 .color-bg{
     background:@mainColor;
 }
 
 .dark-bg{
     background:#1D2026;
+}
+.dark-bg-before {
+    background-image: url('../img/sep2.svg');
+}
+.dark-bg-after {
+    background-image: url('../img/sep3.svg');
 }
 
 .light-typo {
@@ -410,14 +445,41 @@ a:focus,
 /*----------------------
 -----Header Styles------
 ------------------------*/
+.passion {
+  background: rgba(27,124,209,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(27,124,209,1) 0%, rgba(27,124,209,1) 35%, rgba(6,88,101,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(27,124,209,1)), color-stop(35%, rgba(27,124,209,1)), color-stop(100%, rgba(6,88,101,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(27,124,209,1) 0%, rgba(27,124,209,1) 35%, rgba(6,88,101,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(27,124,209,1) 0%, rgba(27,124,209,1) 35%, rgba(6,88,101,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(27,124,209,1) 0%, rgba(27,124,209,1) 35%, rgba(6,88,101,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(27,124,209,1) 0%, rgba(27,124,209,1) 35%, rgba(6,88,101,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7cd1', endColorstr='#065865', GradientType=1 );
+
+  height:820px;
+  position:relative;
+}
+/*
+#passion-bottom {
+  width:100%;
+  height:120px;
+  background-image: url('../img/sep0.svg');
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  position:absolute;
+  bottom: 80px;
+  z-index: 1;
+  opacity: 0.5;
+}
+*/
 
 .jumbotron {
-    background:@mainColor;
+    background:#fff;//@mainColor;
     color:#fff;
     padding:0;
     margin-bottom:0;
-    padding:180px 0 80px;
+    //padding:180px 0 80px;
 	overflow:hidden;
+    
 }
 
 .jumbotron .text-col{
@@ -544,7 +606,8 @@ a:focus,
 }
 
 #skills {
-	padding: 40px 0 30px 0;
+	padding: 40px 0 90px 0;
+    position:relative;
 }
 
 .skills {
@@ -793,7 +856,7 @@ a:focus,
     border:none;
     border-radius:0;
     box-shadow:none;
-    background-color:#fff;
+    //background-color:#fff;
 }
 
 .modal-header{
@@ -946,7 +1009,7 @@ a:focus,
   width:305px;
   min-width:207px;
   padding: 10px 15px;
-  border-radius: 25px;
+  border-radius: 5px;
   font-size: 16px;
   outline: none;
   vertical-align:middle;
